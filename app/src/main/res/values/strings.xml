@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SIGNova</string>
+    <string name="title_home">Voice 2 Video</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Video 2 Text</string>
+    <string name="buton_generar_video">Generate Video</string>
+    <string name="limpiar_texto">X</string>
+</resources>
