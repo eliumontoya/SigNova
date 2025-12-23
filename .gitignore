@@ -1,34 +1,24 @@
-# Gradle files
+# --- Gradle / builds ---
 .gradle/
-build/
+**/build/
+app/release/
 
-# Local configuration file (sdk path, etc)
+# --- Local config / secrets ---
 local.properties
+# Si guardas llaves en gradle.properties del proyecto, descomenta:
+gradle.properties
 
-# Log/OS Files
+# --- Android Studio / IntelliJ ---
+.idea/
+*.iml
+
+# --- Logs / temp ---
 *.log
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# --- OS files ---
+.DS_Store
+Thumbs.db
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
+# --- Keystores (NO subir) ---
 *.jks
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
